@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>andyrewlee</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background: linear-gradient(60deg, black, white);
+      }
+      
+      body:after {
+        background: linear-gradient(60deg, black, white);
+      }
+      
+    	ul.icons li a:hover {
+      	border-color: #53A0FD;
+    	}
+    	
+    	ul.icons li a:hover:before {
+      	text-shadow: 1.25px 0px 0px #53A0FD, -1.25px 0px 0px #53A0FD, 0px 1.25px 0px #53A0FD, 0px -1.25px 0px #53A0FD;
+    	}
+    </style>
+	</head>
+	<body class="is-loading">
+  	<div id="wrapper">
+  
+      <section id="main">
+        <header>
+        	<span class="avatar"><img src="https://media.licdn.com/media/AAEAAQAAAAAAAALwAAAAJDY3NmRiYzUzLTdkZTQtNDMyZC1hZjY2LWRmMDVkNDk5MzI4ZA.jpg" alt="" width="122"/></span>
+        	<h1>Mike Cho</h1>
+        	<p>Korean Abdul-Jabbar</p>
+        </header>
+      	<footer>
+      		<ul class="icons">
+      			<li><a href="https://www.facebook.com/" target="_blank" class="fa-facebook">Facebook</a></li>
+      			<li><a href="https://www.linkedin.com/in/cmikecho/" target="_blank" class="fa-linkedin">LinkedIn</a></li>
+      		</ul>
+      	</footer>
+      </section>
+      
+      <footer id="footer">
+      	<ul class="copyright">
+      		<li>&copy; Mike Cho</li><li>Finance<a href="http://html5up.net" target="_blank"></a></li>
+      	</ul>
+      </footer>
+  	
+  	</div>
+  
+    <script>
+     if ('addEventListener' in window) {
+       window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+       document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+     }
+    </script>
+
+  </body>
+</html>
